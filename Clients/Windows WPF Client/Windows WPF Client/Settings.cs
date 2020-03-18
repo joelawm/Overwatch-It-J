@@ -9,7 +9,7 @@ namespace Windows_WPF_Client
     class Settings
     {
         //applcaition settings
-        public const string APP_NAME = "Monitor Applcation";
+        public const string APP_NAME = "Overwatch It J";
 
 
         //ZFS Notifcation types
