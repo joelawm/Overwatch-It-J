@@ -14,3 +14,20 @@ Current implementation:
 - Make sure to set the "Focus Assist" options to off. If it's set to alarms only the you won't get any notifications.
 
 # Linux Nodes
+
+
+# Links
+<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
+<!-- display the social media buttons in your README -->
+[![alt text][5.1]][5]
+[![alt text][6.1]][6]
+
+<!-- icons with padding -->
+[5.1]: https://i.imgur.com/0dG2g3t.png (discord icon with padding)
+[6.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+
+
+<!-- links to your social media accounts -->
+<!-- update these accordingly -->
+[5]: https://discord.gg/nAcrx7q
+[6]: https://github.com/joelawm
