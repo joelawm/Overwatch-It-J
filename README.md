@@ -1,4 +1,5 @@
 # Overwatch It J
+![OIJ](/Resources/Logo/Overwatch_It_J_Logo.png?raw=true "OIJ")
 My implementation of ZFS monitoring tools, I might make this avaliable more to the public and I will probably update the file strucutre as I go.
 
 
@@ -24,13 +25,13 @@ Current implementation:
 [![alt text][6.1]][6]
 
 <!-- icons with padding -->
-[4.1]: https://i.imgur.com/JuhyhHV.png (Trello)
-[5.1]: https://i.imgur.com/0dG2g3t.png (discord icon with padding)
-[6.1]: https://i.imgur.com/J6LeoUb.png (github icon with padding)
+[4.1]: https://i.imgur.com/Ce5jqpC.png (Trello)
+[5.1]: https://i.imgur.com/95oCwCB.png (discord icon with padding)
+[6.1]: https://i.imgur.com/g4E4CQ7.png (github icon with padding)
 
 
 <!-- links to your social media accounts -->
 <!-- update these accordingly -->
-[4]: https://i.imgur.com/JuhyhHV.png
+[4]: https://trello.com/b/Cy5V0pgH/overwatch-it-j
 [5]: https://discord.gg/nAcrx7q
 [6]: https://github.com/joelawm
