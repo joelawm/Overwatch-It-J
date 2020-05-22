@@ -25,9 +25,9 @@ Current implementation:
 [![alt text][6.1]][6]
 
 <!-- icons with padding -->
-[4.1]: https://i.imgur.com/Ce5jqpC.png (Trello)
-[5.1]: https://i.imgur.com/95oCwCB.png (discord icon with padding)
-[6.1]: https://i.imgur.com/g4E4CQ7.png (github icon with padding)
+[4.1]: https://i.imgur.com/Dc6HxtY.png (Trello)
+[5.1]: https://i.imgur.com/kVtU3B7.png (discord icon with padding)
+[6.1]: https://i.imgur.com/ls0UWAx.png (github icon with padding)
 
 
 <!-- links to your social media accounts -->
