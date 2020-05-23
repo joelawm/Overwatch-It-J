@@ -2,6 +2,10 @@
 ![OIJ](/Resources/Logo/Overwatch_It_J_Logo.png?raw=true "OIJ")
 My implementation of ZFS monitoring tools, I might make this avaliable more to the public and I will probably update the file strucutre as I go.
 
+Technology Stack so far (updated: 5/22/20):
+- django (server side applications, and central server portion)
+- electron (clients)
+
 
 Current implementation:
 1. Node- Each system needing to be monitored will have a node unit, this will have a settings file that can be easily changed around to monitor only what you need to.
