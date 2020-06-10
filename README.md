@@ -1,6 +1,6 @@
 # Overwatch It J
 ![OIJ](/Resources/Logo/Overwatch_It_J_Logo.png?raw=true "OIJ")
-My implementation of ZFS monitoring tools, I might make this avaliable more to the public and I will probably update the file strucutre as I go.
+Overwatch it is a home and eneterpise server management solution. It is built off of electron is specifically ran to be as light weight as possible. 
 
 Technology Stack so far (updated: 5/22/20):
 - django (server side applications, and central server portion)
