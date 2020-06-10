@@ -13,7 +13,7 @@ Edited: by joelawm or Joe Meyer
   
   [class^="mdl2-"]::before, [class*="mdl2-"]::before {
     font-size: 100%;
-    color: azure;
+    color: rgb(156, 156, 156);
   }
   
   .mdl2-heart-legacy::before  { content: '\e006'; } 
