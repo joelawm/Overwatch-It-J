@@ -1,6 +1,10 @@
 # Overwatch It J
 ![OIJ](/Resources/Logo/Overwatch_It_J_Logo.png?raw=true "OIJ")
-My implementation of ZFS monitoring tools, I might make this avaliable more to the public and I will probably update the file strucutre as I go.
+Overwatch it is a home and eneterpise server management solution. It is built off of electron is specifically ran to be as light weight as possible. 
+
+Technology Stack so far (updated: 5/22/20):
+- django (server side applications, and central server portion)
+- electron (clients)
 
 
 Current implementation:
@@ -25,9 +29,9 @@ Current implementation:
 [![alt text][6.1]][6]
 
 <!-- icons with padding -->
-[4.1]: https://i.imgur.com/Ce5jqpC.png (Trello)
-[5.1]: https://i.imgur.com/95oCwCB.png (discord icon with padding)
-[6.1]: https://i.imgur.com/g4E4CQ7.png (github icon with padding)
+[4.1]: https://i.imgur.com/Dc6HxtY.png (Trello)
+[5.1]: https://i.imgur.com/kVtU3B7.png (discord icon with padding)
+[6.1]: https://i.imgur.com/ls0UWAx.png (github icon with padding)
 
 
 <!-- links to your social media accounts -->
