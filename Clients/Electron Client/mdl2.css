@@ -3,6 +3,8 @@ Author: Quique Fdez Guerra
 Twitter: @CKGrafico
 Microsoft Guidelines: https://msdn.microsoft.com/en-us/library/windows/apps/jj841126.aspx
 GitHub: https://github.com/CKGrafico/Segoe-mdl2-assets-css
+
+Edited: by joelawm or Joe Meyer
 */
 
 [class^="mdl2-"], [class*="mdl2-"] {
@@ -10,7 +12,8 @@ GitHub: https://github.com/CKGrafico/Segoe-mdl2-assets-css
   }
   
   [class^="mdl2-"]::before, [class*="mdl2-"]::before {
-    font-size: 1.8pc;
+    font-size: 100%;
+    color: azure;
   }
   
   .mdl2-heart-legacy::before  { content: '\e006'; } 
@@ -303,4 +306,4 @@ GitHub: https://github.com/CKGrafico/Segoe-mdl2-assets-css
   /*Joe Meyer Added*/
   .mdl2-chrome-maximize::before  {content: '\e921'; }
   .mdl2-chrome-minimize::before  {content: '\e922'; }
-  .mdl2-chrome-restore::before  {content: '\e923'; }
+  .mdl2-chrome-restore::before   {content: '\e923'; }

@@ -8,9 +8,9 @@ body {
     -webkit-app-region: drag;
     margin: 0;
     display: flex;
-    background-color: grey;
+    background-color: rgb(34, 34, 34);
     width: 100%;
-    height: 50px;
+    height: 25px;
   }
   
   .menu-button-container {
@@ -39,10 +39,9 @@ body {
   .menu-button {
     -webkit-app-region: no-drag;
     background-color: green;
-    margin-left: 10px;
-    margin-right: 10px;
     width: 25px;
     height: 25px;
+    border: none;
   }
   
   .menu-button:hover {
@@ -51,10 +50,9 @@ body {
   
   .minimize-button {
     -webkit-app-region: no-drag;
-    background-color: green;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 25px;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    width: 35px;
     height: 25px;
   }
   
@@ -64,10 +62,9 @@ body {
   
   .min-max-button {
     -webkit-app-region: no-drag;
-    background-color: blue;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 25px;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    width: 35px;
     height: 25px;
   }
   
@@ -77,13 +74,12 @@ body {
   
   .close-button {
     -webkit-app-region: no-drag;
-    background-color: red;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 25px;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    width: 35px;
     height: 25px;
   }
   
   .close-button:hover {
-    background-color: darkred;
+    background-color: red;
   }
