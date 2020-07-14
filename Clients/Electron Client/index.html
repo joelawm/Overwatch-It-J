@@ -2,10 +2,10 @@
 <html>
 	<head>
 	<meta charset="UTF-8">
-	<title>Hello World!</title>
 	<link rel="stylesheet" href="./main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="mdl2.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 	<body>
 	<div class="title-bar">
@@ -21,14 +21,58 @@
 			<button id="close-button" class="close-button mdl2-cancel"/>
 		</div>
 	</div>
-	<h1>Loading.....</h1>
-	<div class="mdl2-cancel"></div>
-	<div class="mdl2-chrome-restore"></div>
-	<div class="mdl2-chrome-minimize"></div>
-	<div class="mdl2-chrome-maximize"></div>
+	<!-- Side navigation -->
+	<div class="sidenav">
+		<a href="#">Dashboard</a>
+		<a href="#">Servers</a>
+		<a href="#">Reports</a>
+		<a href="#">Scripts</a>
+		<a href="#">Powerwall</a>
+		<a href="#">Account</a>
+	</div>
+
+	<!-- Page content -->
+	<div class="main">
+		<div class="tab">
+			<button class="tablinks" onclick="openTab(event, 'CPU')">CPU</button>
+			<button class="tablinks" onclick="openTab(event, 'Memory')">Memory</button>
+			<button class="tablinks" onclick="openTab(event, 'Networking')">Networking</button>
+		  </div>
+		  
+		  <div id="CPU" class="tabcontent">
+			<h3>CPU</h3>
+			<p>This is the CPU tab.</p>
+		  </div>
+		  <div id="Memory" class="tabcontent">
+			<h3>Memory</h3>
+			<p>This is the memory tab.</p> 
+		  </div>
+		  
+		  <div id="Networking" class="tabcontent">
+			<h3>Networking</h3>
+			<p>This is the netwokring tab.</p>
+		  </div>
+	</div>
 	<script>
 		// You can also require other files to run in this process
 		require('./renderer.js')
+		
+		function openTab(evt, tabName) 
+		{
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++)
+			{
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) 
+			{
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(tabName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
 	</script>
 	</body>
 </html>
