@@ -1,0 +1,84 @@
+.title-bar {
+-webkit-app-region: drag;
+margin: 0;
+display: flex;
+background-color: rgb(34, 34, 34);
+width: 100%;
+height: 25px;
+}
+
+.bar-text {
+color: rgb(156, 156, 156);
+margin-top: 8px;
+}
+
+.menu-button-container {
+background-color: rgb(34, 34, 34);
+display: flex;
+align-items: center;
+flex-grow: 1;
+}
+
+.app-name-container {
+background-color: rgb(34, 34, 34);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+}
+
+.window-controls-container {
+background-color: rgb(34, 34, 34);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+flex-grow: 1;
+}
+
+.menu-button {
+-webkit-app-region: no-drag;
+background-color: green;
+width: 25px;
+height: 25px;
+border: none;
+}
+
+.menu-button button:hover {
+background-color: rgb(104, 104, 104);
+}
+
+.minimize-button {
+-webkit-app-region: no-drag;
+background-color: rgb(34, 34, 34);
+border: none;
+width: 35px;
+height: 25px;
+}
+
+.minimize-button:hover {
+background-color: rgb(104, 104, 104);
+}
+
+.min-max-button {
+-webkit-app-region: no-drag;
+background-color: rgb(34, 34, 34);
+border: none;
+width: 35px;
+height: 25px;
+}
+
+.min-max-button:hover {
+background-color: rgb(104, 104, 104);
+}
+
+.close-button {
+-webkit-app-region: no-drag;
+background-color: rgb(34, 34, 34);
+border: none;
+width: 35px;
+height: 25px;
+}
+
+.close-button:hover {
+background-color: rgb(182, 0, 0);
+}

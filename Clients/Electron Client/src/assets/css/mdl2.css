@@ -9,11 +9,16 @@ Edited: by joelawm or Joe Meyer
 
 [class^="mdl2-"], [class*="mdl2-"] {
     font-family: 'Segoe MDL2 Assets';
+    color: rgb(163, 163, 163);
   }
   
   [class^="mdl2-"]::before, [class*="mdl2-"]::before {
     font-size: 100%;
-    color: rgb(156, 156, 156);
+  }
+
+  [class^="mdl2-"]:hover, [class*="mdl2-"]:hover {
+    font-size: 100%;
+    color: white;
   }
   
   .mdl2-heart-legacy::before  { content: '\e006'; } 
@@ -304,6 +309,6 @@ Edited: by joelawm or Joe Meyer
   .mdl2-battery-saver-10::before { content: '\ea95'; }
 
   /*Joe Meyer Added*/
-  .mdl2-chrome-maximize::before  {content: '\e921'; }
-  .mdl2-chrome-minimize::before  {content: '\e922'; }
+  .mdl2-chrome-maximize::before  {content: '\e922'; }
+  .mdl2-chrome-minimize::before  {content: '\e921'; }
   .mdl2-chrome-restore::before   {content: '\e923'; }

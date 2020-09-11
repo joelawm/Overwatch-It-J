@@ -1,5 +1,7 @@
 const { app, BrowserWindow, Menu, ipcMain } = require('electron')
 const isMac = process.platform === 'darwin'
+const path = require("path")
+const isDev = require("electron-is-dev")
 
 function createWindow () {
 	// Create the browser window.
@@ -7,15 +9,13 @@ function createWindow () {
 		width: 1200,
 		height: 800,
 		frame: false,
-		webPreferences: {
-			nodeIntegration: true
-		}})
+		webPreferences: {nodeIntegration: false, preload: __dirname + '/preload.js', enableRemoteModule: true }})
 
 	// and load the index.html of the app.
-	win.loadFile('src/index.html')
+	win.loadURL(isDev ? "http://localhost:3000" : `file://${path.join(__dirname, "../build/index.html")}`)
 
 	// Open the DevTools.
-	win.webContents.openDevTools()
+	//win.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished
@@ -39,7 +39,6 @@ app.on('activate', () => {
 		createWindow()
 	}
 })
-
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
