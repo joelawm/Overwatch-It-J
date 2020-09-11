@@ -20,7 +20,14 @@ Current implementation:
 
 # Linux Nodes
 
-
+# Electron Client
+#### Code for dependencies:
+```
+npm install react --save-dev
+npm install react-router-dom react-scripts
+npm install -D electron electron-builder concurrently wait-on
+npm install cross-env electron-is-dev
+``` 
 # Links
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 <!-- display the social media buttons in your README -->
